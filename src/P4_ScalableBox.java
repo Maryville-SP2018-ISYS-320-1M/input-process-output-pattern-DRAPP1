@@ -25,13 +25,12 @@ public class P4_ScalableBox {
 
 		times = input.nextInt();
 
-		drawBoxCap(10);
-		drawBoxInsides(10);
-		drawBoxCap(10);
-
+		drawBoxCap(str);
+		drawBoxInsides(times);
+		drawBoxCap(str);
 	}
 
-	public static void drawBoxCap(int i) {
+	public static void drawBoxCap(String str) {
 		System.out.print("+");
 
 		for (int capDashIndex = 1; capDashIndex <= 8 - 2; capDashIndex++) {
