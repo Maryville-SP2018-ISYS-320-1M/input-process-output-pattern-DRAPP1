@@ -29,6 +29,7 @@ public class P4_ScalableBox {
 		drawBoxInsides(times);
 		drawBoxCap(str);
 	}
+	
 
 	public static void drawBoxCap(String str) {
 		System.out.print("+");
